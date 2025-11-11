@@ -4,9 +4,7 @@
         font-size: 60px; 
         padding: 20px 0; 
     }
-
- 
-    .about-pic {
+       .about-pic {
         display: grid; 
         grid-template-columns: 1fr;
         grid-template-rows: auto auto; 
@@ -56,8 +54,54 @@
         margin: 0;
         text-align: center;
     }
-}
+    .hamburger-icon {
+        display: block; 
+        font-size: 2em;
+        cursor: pointer;
+        text-align: center; 
+        padding: 10px 0;
+        width: 100%;
+    }
+    
+    .Buttons {
+        width: 100%;
+        display: block;
+    }
 
+
+    .Buttons ul {
+        display: none; 
+        width: 100%;
+        position: absolute; 
+        left: 0;
+        background-color: #444; 
+        text-align: center;
+        z-index: 1000;
+        padding: 0;
+        list-style: none;
+    }
+    
+ 
+    .Buttons ul.open {
+        display: block;
+    }
+    
+
+    .Buttons ul li {
+        display: block; 
+        margin: 0;
+        border-bottom: 1px solid #555;
+    }
+    
+    .Buttons ul li a {
+        padding: 15px;
+        display: block;
+        color: white;
+        text-decoration: none;
+    }
+    
+}
+    
 
 @media screen and (max-width: 950px) {
     

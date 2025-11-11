@@ -19,6 +19,22 @@
     grid-row: 2;
 }
 
+#active-btn {
+    color: #dadada;
+    text-shadow: 0 0 20px #ebe9e4;
+    font-weight: bold;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.hamburger-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    text-align: right;
+    padding: 10px;
+}
+
 .about-pic {
     grid-row: 3;
     display: grid; 
@@ -62,7 +78,7 @@
     background-color: #2A2727; 
     height: auto; 
     font-family: 'Jacques Francois';
-    text-align: justify;
+    text-align: center;
     border-radius: 15px;
 }
 
@@ -71,6 +87,8 @@
 body {
     background-color: #808080;
 }
+
+
 
 ul {
     display: flex;
@@ -90,10 +108,28 @@ ul li a {
     margin: 0 5px; 
     border-radius: 15px;
     font-family: 'Jacques Francois Shadow', cursive;
+
+    #active-btn{
+      color: #00ffdd;
+      transform: scale(1.1);
+      text-shadow: 0 0 10px #5ed1c2; 
+}
+
 }
 
 .Buttons ul li a:hover {
     color: #f0e9e9;
     background-color: #50555d; 
 
+}
+
+.footer {
+    grid-row: 4; 
+    grid-column: 1 / -1;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #2A2727; 
+    color: #ffffff;
+    padding: 10px 0;
 }
