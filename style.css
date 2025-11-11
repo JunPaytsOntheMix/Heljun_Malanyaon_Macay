@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-rows: auto auto 1fr; 
     grid-template-columns: 1fr; 
     min-height: 100vh;
 }
@@ -82,21 +82,13 @@
     border-radius: 15px;
 }
 
-.text h1 {
-    color: #d4d4d4;
-}
 
-.text h2 {
-    color: #d4d4d4;
-}
-
-.language h2 {
-    color: #d4d4d4;   
-}
 
 body {
     background-color: #808080;
 }
+
+
 
 ul {
     display: flex;
@@ -116,6 +108,13 @@ ul li a {
     margin: 0 5px; 
     border-radius: 15px;
     font-family: 'Jacques Francois Shadow', cursive;
+
+    #active-btn{
+      color: #00ffdd;
+      transform: scale(1.1);
+      text-shadow: 0 0 10px #5ed1c2; 
+}
+
 }
 
 .Buttons ul li a:hover {
@@ -123,41 +122,6 @@ ul li a {
     background-color: #50555d; 
 
 }
-
-
-.language ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 30px; 
-    justify-content: center; 
-    align-items: center; 
-}
-
-
-.language img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain; 
-}
-
-.language ul li:nth-child(1) img {
-    width: 60px;
-    height: 60px;
-}
-
-
-.language ul li:nth-child(2) img {
-    width: 70px;
-    height: 90px;
-}
-
-
-.language ul li:nth-child(3) img {
-    width: 100px;
-    height: 50px;
-}
-
 
 .footer {
     grid-row: 4; 
