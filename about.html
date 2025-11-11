@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
+    <title>ABOUT HELJUN MACAY</title>
+</head>
+<body>
+
+    <div class="grid-container">
+
+        <div class="portfolio-header"> 
+            <center>
+                MY PORTFOLIO
+            </center>
+        </div>
+
+        <div class="Buttons">
+         <div class="hamburger-icon" onclick="toggleMenu()">&#9776;
+        </div>
+            <nav>
+                <ul id="main-nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" id = "active-btn">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="about-pic"> 
+            
+            <div class="profile-pic">
+                <img src="junjun.jpg" alt="A photo of Heljun Macay.">
+            </div>
+
+            <div class="text">
+                <h1>
+                    About Me
+                </h1>
+                <p>
+                    Hello! I'm Heljun Macay, a third-year student at Negros Oriental State University. My passion lies in crafting responsive, high-performance websites using modern web technologies.
+                </p>
+                <h2>Projects</h2>
+                <h4>Tanjay College of Criminology <br> (Enrollment System)</h4>
+                
+                <div class="language">
+                    <h2>Tech Stack</h2>
+                    <ul>
+                        <li>
+                            <img src="c++.png" alt="C++ Logo" class="tech-icon">
+                        </li>
+                        <li>
+                            <img src="html.png" alt="HTML Icon" class="tech-icon"> 
+                        </li>
+                        <li>
+                            <img src="php.png" alt="PHP Icon" class="tech-icon"> 
+                        </li>
+                    </ul>
+
+                </div>
+                
+            </div> </div> <div class="footer">
+            <p>&copy; 2024 Heljun Macay. All Rights Reserved. | Web Developer Portfolio</p>
+        </div>
+
+    </div> <script>
+    function toggleMenu() {
+        const navList = document.getElementById('main-nav-list');
+        navList.classList.toggle('open');
+    }
+</script>
+</body>
+</html>
